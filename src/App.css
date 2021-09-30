@@ -1,0 +1,16 @@
+
+
+.movies {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.movies > div {
+  border: 5px dotted black;
+}
+
+h2 {
+  font-size: 1.25em;
+}
